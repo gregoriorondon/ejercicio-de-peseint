@@ -14,10 +14,10 @@ Algoritmo Calculadora
 	Escribir "|  SENO Y COSENO CON LOS ANTERIORES DATOS  |";
 	Escribir "============================================";
 	
-	r  <- sen(resultado);
-	r1 <- cos(resultado);
-	r2 <- sen(resultado2);
-	r3 <- cos(resultado2);
+	r  <- sen(resultado);  //FUNCIONES PARA
+	r1 <- cos(resultado);   // CALCULAR LOS
+	r2 <- sen(resultado2);   // SENOS Y LOS COSENOS
+	r3 <- cos(resultado2); // CON EL RESULTADO DEL INICIO 
 	Escribir "/////////////////////////////////////////";
 	Escribir "    SENO Y COSENO DEL VALOR ", resultado;
 	Escribir "/////////////////////////////////////////";
@@ -34,11 +34,12 @@ Algoritmo Calculadora
 	Escribir "El coseno del valor ",resultado2," es: ",r3;
 	Escribir "";//salto de linea
 	Escribir "==========================================";
-	Escribir "|   TENGENTE CON LOS DATOS DEL INICIO    |";
+	Escribir "|   TANGENTE CON LOS DATOS DEL INICIO    |";
 	Escribir "==========================================";
 	Escribir "";//salto de linea
-	t <- tan(resultado);
-	t2 <- tan(resultado2);
+	
+	t <- tan(resultado); // FUNCIONES PARA CALCULAR LA TENGENTE
+	t2 <- tan(resultado2);// DE LOS RESULTADOS DEL INICIO
 	Escribir "La tangente de ",resultado," es: ",t;
 	Escribir "La tangente de ",resultado2," es: ",t2;
 	Escribir "";//salto de linea
@@ -46,8 +47,11 @@ Algoritmo Calculadora
 	Escribir "|LA RAIZ CUADRADA CON LOS DATOS DEL INICIO|";
 	Escribir "===========================================";
 	Escribir "";//salto de linea
-	c <- raiz(resultado);
-	c2 <- raiz(resultado2);
+	
+	c <- raiz(resultado);// FUNCIONES PARA CALCULAR LA RAIZ CUADRADA
+	c2 <- raiz(resultado2);// DE LOS RESULTADO DEL INICIO
 	Escribir "La raiz cuadrada de ",resultado," es: ",c;
 	Escribir "La raiz cuadrada de ",resultado2," es: 2",c2;
+	Escribir "";//salto de linea
+	Escribir "";//salto de linea
 FinAlgoritmo
