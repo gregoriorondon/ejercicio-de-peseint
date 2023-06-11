@@ -32,4 +32,14 @@ Algoritmo Calculadora
 	Escribir "";//salto de linea
 	Escribir "El seno del valor ",resultado2," es: ",r2;
 	Escribir "El coseno del valor ",resultado2," es: ",r3;
+	Escribir "";//salto de linea
+	Escribir "==========================================";
+	Escribir "|   TENGENTE CON LOS DATOS DEL INICIO    |";
+	Escribir "==========================================";
+	Escribir "";//salto de linea
+	t <- tan(resultado);
+	t2 <- tan(resultado2);
+	Escribir "La tangente de ",resultado," es: ",t;
+	Escribir "La tangente de ",resultado2," es: ",t2;
+	Escribir "";//salto de linea
 FinAlgoritmo
