@@ -1,4 +1,4 @@
-Algoritmo sin_titulo
+Algoritmo Calculadora
 	Escribir "Ingresa el valor del porcentaje:"; 								//Este es el valor del porcentaje
 	Leer porcentaje; 															//Espera a que le introduzcas el valor con la variable llamada "porcentaje"
 	Escribir "Ingresa valor de la cantidad:"; 									//Este es el valor del numero que será calculado para su resultado
@@ -13,16 +13,23 @@ Algoritmo sin_titulo
 	Escribir "============================================";
 	Escribir "|  SENO Y COSENO CON LOS ANTERIORES DATOS  |";
 	Escribir "============================================";
-	Escribir "";//salto de linea
+	
 	r  <- sen(resultado);
 	r1 <- cos(resultado);
 	r2 <- sen(resultado2);
 	r3 <- cos(resultado2);
-	Escribir "El seno del valor ", resultado," es: ",r;
+	Escribir "/////////////////////////////////////////";
+	Escribir "    SENO Y COSENO DEL VALOR ", resultado;
+	Escribir "/////////////////////////////////////////";
 	Escribir "";//salto de linea
+	Escribir "El seno del valor ", resultado," es: ",r;
 	Escribir "El coseno del valor ",resultado," es: ",r1;
+	
+	Escribir "";//salto de linea
+	Escribir "/////////////////////////////////////////";
+	Escribir "    SENO Y COSENO DEL VALOR ", resultado2;
+	Escribir "/////////////////////////////////////////";
 	Escribir "";//salto de linea
 	Escribir "El seno del valor ",resultado2," es: ",r2;
-	Escribir "";//salto de linea
 	Escribir "El coseno del valor ",resultado2," es: ",r3;
 FinAlgoritmo
