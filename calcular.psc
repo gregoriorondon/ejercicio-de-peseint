@@ -42,4 +42,12 @@ Algoritmo Calculadora
 	Escribir "La tangente de ",resultado," es: ",t;
 	Escribir "La tangente de ",resultado2," es: ",t2;
 	Escribir "";//salto de linea
+	Escribir "===========================================";
+	Escribir "|LA RAIZ CUADRADA CON LOS DATOS DEL INICIO|";
+	Escribir "===========================================";
+	Escribir "";//salto de linea
+	c <- raiz(resultado);
+	c2 <- raiz(resultado2);
+	Escribir "La raiz cuadrada de ",resultado," es: ",c;
+	Escribir "La raiz cuadrada de ",resultado2," es: 2",c2;
 FinAlgoritmo
