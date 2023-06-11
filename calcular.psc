@@ -1,3 +1,8 @@
 Algoritmo sin_titulo
-	Leer lista_de_variables
+	Escribir "Ingresa el valor del porcentaje: ";
+	Leer porcentaje;
+	Escribir "Ingresa valor de la cantidad: ";
+	leer cantidad;
+	resultado <- cantidad*porcentaje/100;
+	Escribir "El procentaje total es de: ", resultado;
 FinAlgoritmo
